@@ -1,0 +1,17 @@
+# Node modules (installed via npm install)
+node_modules/
+
+# WhatsApp session cache
+.webjs_cache/
+
+# Ignore session folder (stores login sessions)
+session/
+
+# Logs and temporary files
+*.log
+temp/
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
