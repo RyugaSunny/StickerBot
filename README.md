@@ -33,8 +33,8 @@ pkg install nodejs git ffmpeg -y
 #### Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/whatsapp-sticker-bot
-cd whatsapp-sticker-bot
+git clone https://github.com/RyugaSunny/StickerBot.git
+cd StickerBot
 ```
 
 #### Install Node.js packages:
@@ -55,7 +55,7 @@ Scan the QR code with WhatsApp (**Settings > Linked Devices > Link a Device**). 
 
 ```bash
 npm i -g pm2
-pm2 start index.js --name "sticker-bot"
+pm2 start index.js --name "StickerBot"
 pm2 save
 pm2 logs
 ```
@@ -74,8 +74,8 @@ sudo apt install nodejs git ffmpeg -y
 #### Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/whatsapp-sticker-bot
-cd whatsapp-sticker-bot
+git clone https://github.com/RyugaSunny/StickerBot.git
+cd StickerBot
 ```
 
 #### Install Node.js packages:
@@ -107,8 +107,8 @@ Scan the QR code with WhatsApp. Session is saved in the `session` folder for fut
 #### Open a Command Prompt or PowerShell:
 
 ```bash
-git clone https://github.com/yourusername/whatsapp-sticker-bot
-cd whatsapp-sticker-bot
+git clone https://github.com/RyugaSunny/StickerBot.git
+cd StickerBot
 npm install
 node index.js
 ```
